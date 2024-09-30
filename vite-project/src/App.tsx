@@ -1,10 +1,17 @@
 import './App.css'
+import { ColorChange } from './components/ColorChange'
+import { Footer } from './components/Footer'
+import { Header } from './components/Header'
 
 function App() {
 
   return (
     <div>
-      <header><h1>Color Change</h1></header>
+      <Header></Header>
+
+      <ColorChange></ColorChange>
+
+      <Footer></Footer>
     </div>
   )
 }
